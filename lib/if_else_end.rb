@@ -1,4 +1,7 @@
 # Write your solution here
-time = Time.now
+time = Time.now.to_i
 
-print time 
+if time % 2 == 0 
+  puts "Even!"
+else 
+  puts "Odd!"
