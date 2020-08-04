@@ -1,3 +1,4 @@
 # Write your solution here
-time = time.now
+time = Time.now
 
+put time
